@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="Assets/favicon.png" type="image/png" />
+
+  <!-- FontAwesome CDN for icons -->
+  <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#techstack">Tech Stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <img src="Assets/profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Hi, I'm Shreya</h1>
+      <p>
+        I'm a Front-End Developer passionate about creating beautiful and 
+        responsive web experiences using HTML and CSS. I am eager to continuously 
+        learn and grow in the field of web development. I enjoy solving problems, 
+        building visually appealing designs, and writing clean code. I’m particularly 
+        interested in creating smooth user interfaces and enhancing user experiences. 
+        My goal is to become a well-rounded developer and contribute to meaningful 
+        and innovative projects.
+      </p>
+      <a href="Assets/resume.pdf" download class="btn" aria-label="Download Resume">Download Resume</a>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="animated-border">
+          <h3>Portfolio Website</h3>
+          <p>A portfolio website built with HTML and CSS is a personal website that showcases an individual's skills, 
+            projects, resume, and contact information. HTML is used to create the structure and content of the website, 
+            such as sections for About Me, Projects, and Contact. CSS is applied to style and layout the site, making it 
+            visually appealing and user-friendly.</p>
+        </div>
+        <div class="animated-border">
+          <h3>CloudPoint - Weather App</h3>
+          <p>A weather app built using HTML and CSS is a simple front-end project designed to display current weather 
+            conditions such as temperature, humidity, wind speed, and weather descriptions. HTML provides the structure 
+            of the app, including elements like headers, location input fields, and weather information sections. CSS is 
+            used to style the app, enhancing its visual appeal with layouts, colors, fonts, and responsive design.</p>
+        </div>
+        <div class="animated-border">
+          <h3>Showcase </h3>
+          <p>a replica of Amazon's homepage or a specific section, created for educational purposes to practice 
+            front-end development. The project involves using HTML to structure elements like navigation bars, 
+            product listings, banners, and footers, and CSS to style the layout, typography, colors, and responsiveness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="techstack">
+      <h2>Tech Stack</h2>
+      <div class="tech-grid">
+        <div class="animated-border tech-item">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp" alt="Java" />
+          <p>Java</p>
+        </div>
+        <div class="animated-border tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" />
+          <p>SQL</p>
+        </div>
+        <div class="animated-border tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <p>HTML</p>
+        </div>
+        <div class="animated-border tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+          <p>CSS</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-buttons">
+        <a href="mailto:shreyamajhi88@gmail.com" class="contact-btn" aria-label="Email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/ShreyaMajhi" target="_blank" rel="noopener" class="contact-btn" aria-label="GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/shreya-majhi-2b3962243/" target="_blank" rel="noopener" class="contact-btn" aria-label="LinkedIn">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    &copy; 2024 Shreya Majhi. All rights reserved.
+  </footer>
+</body>
+</html>
